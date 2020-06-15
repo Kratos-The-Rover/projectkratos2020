@@ -143,7 +143,7 @@ h6 {
 
 /* home section */
 #home {
-	background: url('../juskteez-vu-mwhklqGVzck-unsplash.jpg') 50% 0 repeat-y fixed;
+	background: url('../marsimage.jpg') 50% 0 repeat-y fixed;
 	background-size: cover;
 	color: #ffffff;
 	display: -webkit-box;
@@ -334,9 +334,13 @@ section#intro.intro2 {
 
 /* team section */
 #team {
-	background: #202020 url('../images/formal_imgs/img/background.jpg') 50% 0 repeat-y fixed;
+	background: #202020 url('../images/formal_imgs/img/d.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #ffffff;
-	padding-top: 150px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
