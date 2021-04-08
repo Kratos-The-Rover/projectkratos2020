@@ -350,7 +350,7 @@ section#intro.intro2 {
 }
 
 #team h2 {
-	color: #ffffff;
+	color: #000000;
 }
 
 #team a {
@@ -393,6 +393,80 @@ section#intro.intro2 {
 	margin-bottom: 20px;
 }
 
+
+#team .team-head {
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0px;
+	background-color: #ffffff00;
+	
+	/* padding-bottom: 100px; */
+}
+
+
+#team .team-sub-head {
+	/* margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0px; */
+	background-color: #ffffff88;
+	
+	/* padding-bottom: 100px; */
+}
+/* Team Tabs */
+
+/* Style the tab */
+#team .tab {
+	overflow: hidden;
+	/* margin-top: 20px; */
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 0px;
+	background-color: #ffffff00;
+	
+	/* padding-bottom: 100px; */
+}
+
+/* Style the buttons that are used to open the tab content */
+#team .tab button {
+	background-color: #fff;
+	color: #eb5424;
+	font-size: 20px;
+	font-weight: bold;
+	float: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+  }
+
+/* Change background color of buttons on hover */
+#team .tab button:hover {
+	background-color: #ff9a7b88;
+	color: #fff;
+  }
+  
+  /* Create an active/current tablink class */
+#team .tab button.active {
+	background-color: #eb5424;
+	color: #fff;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+	display: none;
+  }
+
+#team .centered {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+
+
 /* portfolio section */
 #portfolio {
 	padding-top: 100px;
@@ -431,6 +505,8 @@ section#intro.intro2 {
 	height: 300px;
 	object-fit: cover;
 }
+
+
 
 /* price section */
 #price {
